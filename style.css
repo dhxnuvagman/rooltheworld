@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 *{
     margin:0;
     padding:0;
@@ -35,8 +36,26 @@
 
 
 .navbar h1{
-    font-size: 3.1rem;
+    font-size: 2rem;
+    position: relative;
+    top: 6px;
 }
+
+.navbar h2{
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+    bottom: 5.7px;
+
+}
+.logotxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
 .logo{
     width: 5%;
     height: 70%;
